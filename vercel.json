@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/auth/:match*",
-      "destination": "http://cloudnote-alb-1484943500.ap-south-1.elb.amazonaws.com/auth/:match*"
+      "destination": "http://cloudnote-alb-616266848.ap-south-1.elb.amazonaws.com/auth/:match*"
     },
     {
       "source": "/api/:match*",
-      "destination": "http://cloudnote-alb-1484943500.ap-south-1.elb.amazonaws.com/api/:match*"
+      "destination": "http://cloudnote-alb-616266848.ap-south-1.elb.amazonaws.com/api/:match*"
     },
     {
       "source": "/(.*)",

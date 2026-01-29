@@ -1,9 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-    // baseURL: 'http://localhost:8080', // Pointing to your Local Spring Boot Backend
-    // baseURL: 'http://cloudnote-alb-1484943500.ap-south-1.elb.amazonaws.com', // Pointing to your Cloud Spring Boot Backend
-    baseURL: '', // For deploying on Versal
+    // baseURL: 'http://localhost:8080', // Pointing to Local Spring Boot Backend
+    baseURL: '', // to use Versal reverse proxy
     headers: {
         'Content-Type': 'application/json',
     },

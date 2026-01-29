@@ -140,9 +140,7 @@ const Dashboard = () => {
                 }}
               >
                 <img
-                  // src={`http://localhost:8080/api/notes/images/${note.imageKey}`} // For Local Dev
-                  // src={`http://cloudnote-alb-1484943500.ap-south-1.elb.amazonaws.com/api/notes/images/${note.imageKey}`} /// For AWS Deployment
-                  src={`/api/notes/images/${note.imageKey}`} /// For Versal Deployment
+                  src={`https://djhs5va0359dq.cloudfront.net/${note.imageKey}`}
                   alt="Note Attachment"
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
