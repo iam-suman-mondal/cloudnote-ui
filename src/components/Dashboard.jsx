@@ -140,7 +140,7 @@ const Dashboard = () => {
                 }}
               >
                 <img
-                  src={`https://djhs5va0359dq.cloudfront.net/${note.imageKey}`}
+                  src={`${import.meta.env.VITE_CDN_URL}/${note.imageKey}`}
                   alt="Note Attachment"
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
